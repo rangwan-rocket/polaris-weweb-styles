@@ -3,21 +3,31 @@
 // Override these to theme your components
 // ============================================
 
-// Brand Colors - CHANGE THESE TO YOUR BRAND
-$brand-primary: #008060 !default;           // Main brand color (buttons, links)
-$brand-primary-hover: #006e52 !default;     // Hover state
-$brand-primary-active: #005c45 !default;    // Active/pressed state
-$brand-primary-disabled: #8ec5b5 !default;  // Disabled state
-$brand-primary-light: #cdfee1 !default;     // Light background variant
+// Brand Colors - Default matches Shopify Admin (dark/black buttons)
+$brand-primary: #303030 !default;           // Main brand color (primary buttons)
+$brand-primary-hover: #1a1a1a !default;     // Hover state
+$brand-primary-active: #0a0a0a !default;    // Active/pressed state
+$brand-primary-disabled: #babec3 !default;  // Disabled state
+$brand-primary-light: #f1f1f1 !default;     // Light background variant
+
+// Link Color - Blue for links
+$link-color: #005bd3 !default;              // Links, text accents
 
 // Alternative Themes (uncomment to use)
 // ---------------------------------------
 
+// Shopify Green Theme (for success-themed or legacy apps)
+// $brand-primary: #008060;
+// $brand-primary-hover: #006e52;
+// $brand-primary-active: #005c45;
+// $brand-primary-disabled: #8ec5b5;
+// $brand-primary-light: #cdfee1;
+
 // Blue Theme
-// $brand-primary: #0070f3;
-// $brand-primary-hover: #0060d0;
-// $brand-primary-active: #0050b0;
-// $brand-primary-disabled: #99c4f7;
+// $brand-primary: #005bd3;
+// $brand-primary-hover: #004299;
+// $brand-primary-active: #003380;
+// $brand-primary-disabled: #a4c8e8;
 // $brand-primary-light: #e8f4ff;
 
 // Purple Theme
@@ -48,9 +58,3 @@ $brand-primary-light: #cdfee1 !default;     // Light background variant
 // $brand-primary-disabled: #fdba74;
 // $brand-primary-light: #ffedd5;
 
-// Neutral/Gray Theme
-// $brand-primary: #475569;
-// $brand-primary-hover: #334155;
-// $brand-primary-active: #1e293b;
-// $brand-primary-disabled: #94a3b8;
-// $brand-primary-light: #f1f5f9;

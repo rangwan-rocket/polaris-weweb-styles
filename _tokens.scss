@@ -22,14 +22,14 @@
   --p-color-bg-fill-transparent-hover: rgba(0, 0, 0, 0.05);
   --p-color-bg-fill-transparent-active: rgba(0, 0, 0, 0.08);
   
-  // Brand Colors
-  --p-color-bg-fill-brand: #008060;
-  --p-color-bg-fill-brand-hover: #006e52;
-  --p-color-bg-fill-brand-active: #005c45;
-  --p-color-bg-fill-brand-disabled: #8ec5b5;
+  // Brand Colors (Primary actions - dark/black as used in Shopify Admin)
+  --p-color-bg-fill-brand: #303030;
+  --p-color-bg-fill-brand-hover: #1a1a1a;
+  --p-color-bg-fill-brand-active: #0a0a0a;
+  --p-color-bg-fill-brand-disabled: #babec3;
   
   // Status Colors
-  --p-color-bg-fill-critical: #e51c00;
+  --p-color-bg-fill-critical: #d82c0d;
   --p-color-bg-fill-critical-secondary: #fee9e8;
   --p-color-bg-fill-success: #008060;
   --p-color-bg-fill-success-secondary: #cdfee1;
@@ -44,8 +44,8 @@
   --p-color-text-secondary: #6d7175;
   --p-color-text-disabled: #8c9196;
   --p-color-text-on-color: #ffffff;
-  --p-color-text-brand: #008060;
-  --p-color-text-critical: #e51c00;
+  --p-color-text-brand: #005bd3;
+  --p-color-text-critical: #d82c0d;
   --p-color-text-success: #008060;
   --p-color-text-warning: #8a6116;
   --p-color-text-info: #0070f3;
@@ -55,8 +55,8 @@
   --p-color-border: #c9cccf;
   --p-color-border-hover: #8c9196;
   --p-color-border-disabled: #d9dbdd;
-  --p-color-border-brand: #008060;
-  --p-color-border-critical: #e51c00;
+  --p-color-border-brand: #303030;
+  --p-color-border-critical: #d82c0d;
   --p-color-border-success: #008060;
   --p-color-border-warning: #ffb800;
   --p-color-border-info: #0070f3;
@@ -65,7 +65,7 @@
   --p-color-icon: #5c5f62;
   --p-color-icon-hover: #1a1c1d;
   --p-color-icon-disabled: #babfc4;
-  --p-color-icon-critical: #e51c00;
+  --p-color-icon-critical: #d82c0d;
   --p-color-icon-success: #008060;
   --p-color-icon-warning: #ffb800;
   --p-color-icon-info: #0070f3;
@@ -155,3 +155,4 @@
   --p-motion-ease-in: cubic-bezier(0.42, 0, 1, 1);
   --p-motion-ease-out: cubic-bezier(0, 0, 0.58, 1);
 }
+
