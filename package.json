@@ -1,0 +1,17 @@
+{
+  "name": "polaris-weweb-styles",
+  "version": "1.0.0",
+  "description": "Shared Polaris design tokens and mixins for WeWeb components",
+  "main": "index.scss",
+  "files": [
+    "*.scss"
+  ],
+  "keywords": [
+    "polaris",
+    "scss",
+    "weweb",
+    "design-tokens"
+  ],
+  "author": "",
+  "license": "MIT"
+}
