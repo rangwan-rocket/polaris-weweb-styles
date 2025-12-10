@@ -34,16 +34,18 @@ All tokens are injected via `@include polaris-tokens` and follow the `--p-` pref
 
 | Token | Default | Usage |
 |-------|---------|-------|
-| `--p-color-bg-fill-brand` | `#008060` | Primary buttons, accents |
-| `--p-color-bg-fill-brand-hover` | `#006e52` | Brand hover state |
-| `--p-color-bg-fill-brand-active` | `#005c45` | Brand active state |
-| `--p-color-bg-fill-brand-disabled` | `#8ec5b5` | Disabled brand elements |
+| `--p-color-bg-fill-brand` | `#303030` | Primary buttons, accents (dark/black) |
+| `--p-color-bg-fill-brand-hover` | `#1a1a1a` | Brand hover state |
+| `--p-color-bg-fill-brand-active` | `#0a0a0a` | Brand active state |
+| `--p-color-bg-fill-brand-disabled` | `#babec3` | Disabled brand elements |
+
+> **Note:** The default dark/black color matches Shopify Admin UI. The green (#008060) is only used for success states, not primary actions.
 
 ### Status Colors
 
 | Token | Default | Usage |
 |-------|---------|-------|
-| `--p-color-bg-fill-critical` | `#e51c00` | Error/danger fill |
+| `--p-color-bg-fill-critical` | `#d82c0d` | Error/danger fill (delete buttons) |
 | `--p-color-bg-fill-critical-secondary` | `#fee9e8` | Error background |
 | `--p-color-bg-fill-success` | `#008060` | Success fill |
 | `--p-color-bg-fill-success-secondary` | `#cdfee1` | Success background |
@@ -60,8 +62,8 @@ All tokens are injected via `@include polaris-tokens` and follow the `--p-` pref
 | `--p-color-text-secondary` | `#6d7175` | Secondary/muted text |
 | `--p-color-text-disabled` | `#8c9196` | Disabled text |
 | `--p-color-text-on-color` | `#ffffff` | Text on colored backgrounds |
-| `--p-color-text-brand` | `#008060` | Brand-colored text, links |
-| `--p-color-text-critical` | `#e51c00` | Error text |
+| `--p-color-text-brand` | `#005bd3` | Links, brand-colored text (blue) |
+| `--p-color-text-critical` | `#d82c0d` | Error text |
 | `--p-color-text-success` | `#008060` | Success text |
 | `--p-color-text-warning` | `#8a6116` | Warning text |
 | `--p-color-text-info` | `#0070f3` | Info text |
@@ -73,8 +75,8 @@ All tokens are injected via `@include polaris-tokens` and follow the `--p-` pref
 | `--p-color-border` | `#c9cccf` | Default borders |
 | `--p-color-border-hover` | `#8c9196` | Border hover state |
 | `--p-color-border-disabled` | `#d9dbdd` | Disabled borders |
-| `--p-color-border-brand` | `#008060` | Brand accent borders |
-| `--p-color-border-critical` | `#e51c00` | Error borders |
+| `--p-color-border-brand` | `#303030` | Brand accent borders |
+| `--p-color-border-critical` | `#d82c0d` | Error borders |
 | `--p-color-border-success` | `#008060` | Success borders |
 | `--p-color-border-warning` | `#ffb800` | Warning borders |
 | `--p-color-border-info` | `#0070f3` | Info borders |
@@ -86,7 +88,7 @@ All tokens are injected via `@include polaris-tokens` and follow the `--p-` pref
 | `--p-color-icon` | `#5c5f62` | Default icon color |
 | `--p-color-icon-hover` | `#1a1c1d` | Icon hover state |
 | `--p-color-icon-disabled` | `#babfc4` | Disabled icons |
-| `--p-color-icon-critical` | `#e51c00` | Error icons |
+| `--p-color-icon-critical` | `#d82c0d` | Error icons |
 | `--p-color-icon-success` | `#008060` | Success icons |
 | `--p-color-icon-warning` | `#ffb800` | Warning icons |
 | `--p-color-icon-info` | `#0070f3` | Info icons |

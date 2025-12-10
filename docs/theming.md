@@ -42,7 +42,22 @@ Override tokens directly in your component:
 
 Copy any theme into your `_variables.scss`:
 
-### Shopify Green (Default)
+### Dark/Black (Default - Shopify Admin Style)
+
+The default matches the actual Shopify Admin UI used by embedded apps:
+
+```scss
+$brand-primary: #303030;           // Dark gray/black buttons
+$brand-primary-hover: #1a1a1a;
+$brand-primary-active: #0a0a0a;
+$brand-primary-disabled: #babec3;
+$brand-primary-light: #f1f1f1;
+$link-color: #005bd3;              // Blue for links
+```
+
+> **Why dark?** Shopify Admin and most embedded apps use black primary buttons, not green. The green (#008060) is Shopify's *corporate brand color* for marketing — not the UI color for admin actions.
+
+### Shopify Green (Legacy/Success themed)
 ```scss
 $brand-primary: #008060;
 $brand-primary-hover: #006e52;
@@ -193,7 +208,7 @@ Override tokens for specific contexts:
 // Danger zone section
 .danger-zone {
   --p-color-bg-fill-brand: var(--p-color-bg-fill-critical);
-  --p-color-bg-fill-brand-hover: #c41200;
+  --p-color-bg-fill-brand-hover: #bc2200;
   --p-color-text-brand: var(--p-color-text-critical);
 }
 
