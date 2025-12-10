@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Polaris WeWeb Styles - Preview</title>
+  <style>
+    :root {
+      --p-color-bg: #f6f6f7;
+      --p-color-bg-surface: #ffffff;
+      --p-color-bg-fill-brand: #008060;
+      --p-color-text: #202223;
+      --p-color-text-on-color: #ffffff;
+      --p-color-border: #c9cccf;
+      --p-space-200: 8px;
+      --p-space-400: 16px;
+      --p-font-family-sans: -apple-system, BlinkMacSystemFont, sans-serif;
+      --p-border-radius-200: 8px;
+      --p-shadow-card: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+    }
+    body { font-family: var(--p-font-family-sans); background: var(--p-color-bg); padding: 24px; }
+    .card { background: var(--p-color-bg-surface); border-radius: var(--p-border-radius-200); box-shadow: var(--p-shadow-card); padding: var(--p-space-400); margin-bottom: var(--p-space-400); max-width: 400px; }
+    h2 { margin: 0 0 16px; font-size: 20px; }
+    .row { display: flex; gap: var(--p-space-200); margin-bottom: 12px; }
+    .btn { padding: 8px 16px; border: none; border-radius: var(--p-border-radius-200); font-size: 14px; cursor: pointer; }
+    .btn-primary { background: var(--p-color-bg-fill-brand); color: var(--p-color-text-on-color); }
+    .btn-default { background: white; color: var(--p-color-text); box-shadow: 0 0 0 1px var(--p-color-border); }
+    .input { width: 100%; padding: 8px 12px; border: 1px solid var(--p-color-border); border-radius: var(--p-border-radius-200); font-size: 14px; margin-bottom: 12px; box-sizing: border-box; }
+    .badge { display: inline-block; padding: 4px 8px; border-radius: 999px; font-size: 12px; background: #cdfee1; color: #008060; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Buttons</h2>
+    <div class="row">
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-default">Default</button>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Form</h2>
+    <input type="text" class="input" placeholder="Enter text...">
+    <div class="row">
+      <button class="btn btn-primary">Save</button>
+      <button class="btn btn-default">Cancel</button>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Badge</h2>
+    <span class="badge">Success</span>
+  </div>
+</body>
+</html>
