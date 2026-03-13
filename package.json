@@ -1,17 +1,70 @@
 {
   "name": "polaris-weweb-styles",
-  "version": "1.0.0",
-  "description": "Shared Polaris design tokens and mixins for WeWeb components",
+  "version": "2.2.0",
+  "description": "SCSS design system + Vue 3 component library for WeWeb custom components following Shopify Polaris design language. Includes mixins, design tokens, theming support, and ready-to-use Vue components.",
   "main": "index.scss",
+  "style": "index.scss",
+  "sass": "index.scss",
+  "module": "components/index.js",
+  "exports": {
+    ".": "./index.scss",
+    "./components": "./components/index.js",
+    "./components/*": "./components/*.vue"
+  },
   "files": [
-    "*.scss"
+    "index.scss",
+    "_variables.scss",
+    "_tokens.scss",
+    "_mixins.scss",
+    "components",
+    "docs",
+    "README.md",
+    "LICENSE"
   ],
   "keywords": [
     "polaris",
+    "shopify",
     "scss",
+    "sass",
     "weweb",
-    "design-tokens"
+    "vue",
+    "vue3",
+    "design-tokens",
+    "design-system",
+    "mixins",
+    "css",
+    "ui",
+    "components",
+    "shopify-polaris",
+    "admin-ui",
+    "component-library"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "rangwand",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rangwan-rocket/polaris-weweb-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rangwan-rocket/polaris-weweb-styles/issues"
+  },
+  "homepage": "https://github.com/rangwan-rocket/polaris-weweb-styles#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "sass": ">=1.0.0",
+    "vue": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "sass": {
+      "optional": false
+    },
+    "vue": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

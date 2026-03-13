@@ -141,6 +141,18 @@
   box-shadow: var(--p-shadow-card);
 }
 
+@mixin polaris-card-bordered {
+  background: var(--p-color-bg-surface);
+  border: 1px solid var(--p-color-border);
+  border-radius: var(--p-border-radius-200);
+  box-shadow: var(--p-shadow-card-sm);
+}
+
+@mixin polaris-card-active {
+  border-color: var(--p-color-border-info);
+  box-shadow: var(--p-shadow-card-sm);
+}
+
 @mixin polaris-card-subdued {
   background: var(--p-color-bg-surface-secondary);
   box-shadow: none;
@@ -371,6 +383,46 @@
 @mixin polaris-text-body-subdued {
   @include polaris-text-body;
   color: var(--p-color-text-secondary);
+}
+
+@mixin polaris-text-subtitle {
+  font-family: var(--p-font-family-sans);
+  font-size: var(--p-font-size-350);
+  font-weight: var(--p-font-weight-medium);
+  line-height: 1.43;
+  color: var(--p-color-text);
+}
+
+@mixin polaris-text-subtitle-sm {
+  font-family: var(--p-font-family-sans);
+  font-size: var(--p-font-size-325);
+  font-weight: var(--p-font-weight-medium);
+  line-height: 1.54;
+  color: var(--p-color-text-subdued);
+}
+
+@mixin polaris-text-description {
+  font-family: var(--p-font-family-sans);
+  font-size: var(--p-font-size-275);
+  font-weight: var(--p-font-weight-regular);
+  line-height: 1.45;
+  color: var(--p-color-text-secondary);
+}
+
+@mixin polaris-text-title {
+  font-family: var(--p-font-family-sans);
+  font-size: var(--p-font-size-500);
+  font-weight: var(--p-font-weight-semibold);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--p-color-text);
+}
+
+@mixin polaris-separator-dot {
+  width: 0;
+  height: 13px;
+  border-left: 1px solid #CCCCCC;
+  flex-shrink: 0;
 }
 
 // ==================== ICONS ====================
@@ -946,7 +998,6 @@
 }
 
 // ==================== TOOLTIP ====================
-// CSS-only tooltip (requires data-tooltip attribute)
 
 @mixin polaris-tooltip-trigger {
   position: relative;
@@ -998,7 +1049,6 @@
 }
 
 // ==================== POPOVER ====================
-// Base styling for popover containers
 
 @mixin polaris-popover {
   position: absolute;
@@ -1020,7 +1070,6 @@
 }
 
 // ==================== MODAL ====================
-// Base styling for modal dialogs
 
 @mixin polaris-modal-backdrop {
   position: fixed;
@@ -1546,7 +1595,6 @@
   position: relative;
   overflow: hidden;
   
-  // Checkerboard background for transparency
   &::before {
     content: '';
     position: absolute;
@@ -1569,7 +1617,6 @@
 @mixin polaris-color-field-swatch-color {
   position: absolute;
   inset: 0;
-  // Color set via inline style: background-color
 }
 
 // ==================== COLOR PICKER ====================
@@ -1588,7 +1635,6 @@
   height: 160px;
   border-radius: var(--p-border-radius-100);
   cursor: crosshair;
-  // Saturation/brightness gradient set via inline style or JS
   background: linear-gradient(to right, white, hsl(0, 100%, 50%));
   
   &::after {
@@ -1644,7 +1690,6 @@
 
 @mixin polaris-color-picker-alpha-slider {
   @include polaris-color-picker-slider;
-  // Checkerboard background
   background-image: 
     linear-gradient(45deg, #ccc 25%, transparent 25%),
     linear-gradient(-45deg, #ccc 25%, transparent 25%),
@@ -1658,7 +1703,6 @@
     position: absolute;
     inset: 0;
     border-radius: inherit;
-    // Alpha gradient set via inline style
     background: linear-gradient(to right, transparent, currentColor);
   }
 }
@@ -1744,7 +1788,6 @@
   }
 }
 
-// Color swatches grid (preset colors)
 @mixin polaris-color-picker-swatches {
   margin-top: var(--p-space-300);
   display: grid;
@@ -1828,7 +1871,6 @@
   margin-top: var(--p-space-100);
 }
 
-// Stacked file upload (shows uploaded files)
 @mixin polaris-drop-zone-stack {
   @include polaris-drop-zone;
   min-height: auto;
@@ -1875,4 +1917,3 @@
     color: var(--p-color-text-critical);
   }
 }
-

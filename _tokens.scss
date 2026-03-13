@@ -31,44 +31,45 @@
   // Status Colors
   --p-color-bg-fill-critical: #d82c0d;
   --p-color-bg-fill-critical-secondary: #fee9e8;
-  --p-color-bg-fill-success: #008060;
+  --p-color-bg-fill-success: #29845A;
   --p-color-bg-fill-success-secondary: #cdfee1;
   --p-color-bg-fill-warning: #ffb800;
-  --p-color-bg-fill-warning-secondary: #fff5d6;
-  --p-color-bg-fill-info: #0070f3;
-  --p-color-bg-fill-info-secondary: #e8f4ff;
-  --p-color-bg-fill-caution: #fff5d6;
+  --p-color-bg-fill-warning-secondary: #FFF1E3;
+  --p-color-bg-fill-info: #0262E0;
+  --p-color-bg-fill-info-secondary: rgba(2, 98, 224, 0.1);
+  --p-color-bg-fill-caution: #FFF1E3;
   
   // Text Colors
   --p-color-text: #202223;
+  --p-color-text-subdued: #3F4142;
   --p-color-text-secondary: #6d7175;
   --p-color-text-disabled: #8c9196;
   --p-color-text-on-color: #ffffff;
   --p-color-text-brand: #005bd3;
   --p-color-text-critical: #d82c0d;
-  --p-color-text-success: #008060;
-  --p-color-text-warning: #8a6116;
-  --p-color-text-info: #0070f3;
-  --p-color-text-caution: #8a6116;
+  --p-color-text-success: #29845A;
+  --p-color-text-warning: #5E4200;
+  --p-color-text-info: #0262E0;
+  --p-color-text-caution: #5E4200;
   
   // Border Colors
-  --p-color-border: #c9cccf;
-  --p-color-border-hover: #8c9196;
+  --p-color-border: #EBEDEF;
+  --p-color-border-hover: #C9CCCF;
   --p-color-border-disabled: #d9dbdd;
   --p-color-border-brand: #303030;
   --p-color-border-critical: #d82c0d;
-  --p-color-border-success: #008060;
+  --p-color-border-success: #29845A;
   --p-color-border-warning: #ffb800;
-  --p-color-border-info: #0070f3;
+  --p-color-border-info: #0262E0;
   
   // Icon Colors
   --p-color-icon: #5c5f62;
   --p-color-icon-hover: #1a1c1d;
   --p-color-icon-disabled: #babfc4;
   --p-color-icon-critical: #d82c0d;
-  --p-color-icon-success: #008060;
+  --p-color-icon-success: #29845A;
   --p-color-icon-warning: #ffb800;
-  --p-color-icon-info: #0070f3;
+  --p-color-icon-info: #0262E0;
   
   // Focus
   --p-color-focus-ring: #005bd3;
@@ -93,7 +94,7 @@
   // ==================== TYPOGRAPHY ====================
   
   // Font Family
-  --p-font-family-sans: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --p-font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   --p-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
   
   // Font Sizes
@@ -135,13 +136,13 @@
   --p-shadow-0: none;
   --p-shadow-100: 0 1px 0 rgba(0, 0, 0, 0.05);
   --p-shadow-200: 0 3px 1px -1px rgba(0, 0, 0, 0.07);
-  --p-shadow-card: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15);
-  --p-shadow-card-hover: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 2px 6px 0 rgba(63, 63, 68, 0.18);
+  --p-shadow-card: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
+  --p-shadow-card-hover: 0px 4px 8px 0px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(0, 0, 0, 0.04);
   --p-shadow-button: 0 1px 0 rgba(0, 0, 0, 0.05);
   --p-shadow-button-hover: 0 2px 0 rgba(0, 0, 0, 0.08);
-  --p-shadow-button-primary: 0 1px 0 rgba(0, 0, 0, 0.08), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  --p-shadow-button-primary: 0px 1px 0px 0px rgba(26, 26, 26, 0.07), inset 0px 1px 0px 0px rgba(204, 204, 204, 0.5), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.17), inset -1px 0px 0px 0px rgba(0, 0, 0, 0.13), inset 1px 0px 0px 0px rgba(0, 0, 0, 0.13);
   --p-shadow-inset-100: inset 0 1px 1px rgba(0, 0, 0, 0.1);
-  --p-shadow-popover: 0 3px 6px -3px rgba(23, 24, 24, 0.08), 0 8px 20px -4px rgba(23, 24, 24, 0.12);
+  --p-shadow-popover: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
   
   // ==================== MOTION ====================
   
@@ -154,5 +155,15 @@
   --p-motion-ease: cubic-bezier(0.25, 0.1, 0.25, 1);
   --p-motion-ease-in: cubic-bezier(0.42, 0, 1, 1);
   --p-motion-ease-out: cubic-bezier(0, 0, 0.58, 1);
-}
 
+  // ==================== ADDITIONAL TOKENS ====================
+
+  --p-color-bg-fill-brand-secondary: rgba(2, 98, 224, 0.1);
+  --p-shadow-card-sm: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
+
+  // Native form element brand color
+  input[type="radio"],
+  input[type="checkbox"] {
+    accent-color: var(--p-color-bg-fill-brand);
+  }
+}
