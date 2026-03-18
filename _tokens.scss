@@ -22,14 +22,16 @@
   --p-color-bg-fill-transparent-hover: rgba(0, 0, 0, 0.05);
   --p-color-bg-fill-transparent-active: rgba(0, 0, 0, 0.08);
   
-  // Brand Colors (Primary actions - dark/black as used in Shopify Admin)
-  --p-color-bg-fill-brand: #303030;
-  --p-color-bg-fill-brand-hover: #1a1a1a;
-  --p-color-bg-fill-brand-active: #0a0a0a;
-  --p-color-bg-fill-brand-disabled: #babec3;
+  // Brand Colors (Primary actions — driven by $brand-* SCSS variables)
+  --p-color-bg-fill-brand: #{$brand-primary};
+  --p-color-bg-fill-brand-hover: #{$brand-primary-hover};
+  --p-color-bg-fill-brand-active: #{$brand-primary-active};
+  --p-color-bg-fill-brand-disabled: #{$brand-primary-disabled};
   
   // Status Colors
   --p-color-bg-fill-critical: #d82c0d;
+  --p-color-bg-fill-critical-hover: #bc2200;
+  --p-color-bg-fill-critical-active: #a21b00;
   --p-color-bg-fill-critical-secondary: #fee9e8;
   --p-color-bg-fill-success: #29845A;
   --p-color-bg-fill-success-secondary: #cdfee1;
@@ -49,7 +51,7 @@
   --p-color-text-secondary: #6d7175;
   --p-color-text-disabled: #8c9196;
   --p-color-text-on-color: #ffffff;
-  --p-color-text-brand: #005bd3;
+  --p-color-text-brand: #{$link-color};
   --p-color-text-critical: #d82c0d;
   --p-color-text-success: #29845A;
   --p-color-text-warning: #5E4200;
@@ -61,12 +63,12 @@
   --p-color-border: #EBEDEF;
   --p-color-border-hover: #C9CCCF;
   --p-color-border-disabled: #d9dbdd;
-  --p-color-border-brand: #303030;
+  --p-color-border-brand: #{$brand-primary};
   --p-color-border-critical: #d82c0d;
   --p-color-border-success: #29845A;
   --p-color-border-warning: #ffb800;
   --p-color-border-info: #0262E0;
-  --p-color-border-focus: #005bd3;
+  --p-color-border-focus: #{$link-color};
   --p-color-border-pending: #D97706;
   
   // Icon Colors
@@ -81,7 +83,7 @@
   --p-color-icon-pending: #D97706;
   
   // Focus
-  --p-color-focus-ring: #005bd3;
+  --p-color-focus-ring: #{$link-color};
   
   // ==================== SPACING ====================
   // 4px base unit
@@ -145,6 +147,7 @@
   --p-shadow-0: none;
   --p-shadow-100: 0 1px 0 rgba(0, 0, 0, 0.05);
   --p-shadow-200: 0 3px 1px -1px rgba(0, 0, 0, 0.07);
+  --p-shadow-header: 0 1px 0 0 rgba(0, 0, 0, 0.04);
   --p-shadow-card: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
   --p-shadow-card-hover: 0px 4px 8px 0px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(0, 0, 0, 0.04);
   --p-shadow-button: 0 1px 0 rgba(0, 0, 0, 0.05);
