@@ -1,6 +1,6 @@
 {
   "name": "polaris-weweb-styles",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "SCSS design system + Vue 3 component library for WeWeb custom components following Shopify Polaris design language. Includes mixins, design tokens, theming support, and ready-to-use Vue components.",
   "main": "index.scss",
   "style": "index.scss",

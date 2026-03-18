@@ -89,6 +89,9 @@ $brand-primary-light: #e8f4ff;
 | `polaris-button-icon-only` | Square icon button |
 | `polaris-button-group` | Horizontal button layout |
 | `polaris-button-group-segmented` | Connected button group |
+| `polaris-button-icon($size)` | Transparent icon-only button (default 32px) |
+| `polaris-button-icon-small` | Small icon button (28px) |
+| `polaris-button-icon-danger` | Danger hover variant for icon buttons |
 | `polaris-link` | Styled anchor link |
 | `polaris-link-monochrome` | Underlined link (no color) |
 
@@ -163,6 +166,11 @@ $brand-primary-light: #e8f4ff;
 | `polaris-skeleton-display-text` | Loading placeholder heading |
 | `polaris-skeleton-body-text` | Loading placeholder paragraph |
 | `polaris-skeleton-thumbnail` | Loading placeholder image |
+| `polaris-toast` | Base toast notification (fixed position) |
+| `polaris-toast-success` | Success toast (green) |
+| `polaris-toast-critical` | Error toast (red) |
+| `polaris-toast-warning` | Warning toast (yellow) |
+| `polaris-toast-info` | Info toast (blue) |
 
 ### Media
 | Mixin | Description |
@@ -212,6 +220,12 @@ $brand-primary-light: #e8f4ff;
 | `polaris-modal-header` | Modal header |
 | `polaris-modal-content` | Modal body |
 | `polaris-modal-footer` | Modal footer |
+| `polaris-drawer-overlay` | Drawer backdrop overlay |
+| `polaris-drawer($width)` | Right-side sliding drawer panel (default 560px) |
+| `polaris-drawer-left($width)` | Left-side sliding drawer panel |
+| `polaris-drawer-header` | Drawer header bar |
+| `polaris-drawer-content` | Scrollable drawer content area |
+| `polaris-drawer-footer` | Drawer footer action bar |
 | `polaris-action-list` | Dropdown action menu |
 | `polaris-action-list-item` | Action menu item |
 
