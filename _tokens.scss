@@ -38,6 +38,10 @@
   --p-color-bg-fill-info: #0262E0;
   --p-color-bg-fill-info-secondary: rgba(2, 98, 224, 0.1);
   --p-color-bg-fill-caution: #FFF1E3;
+  --p-color-bg-fill-pending: #FEF3C7;
+  --p-color-bg-fill-pending-secondary: #FFFBEB;
+  --p-color-bg-fill-disabled: #babec3;
+  --p-color-bg-fill-secondary: #f1f1f1;
   
   // Text Colors
   --p-color-text: #202223;
@@ -51,6 +55,7 @@
   --p-color-text-warning: #5E4200;
   --p-color-text-info: #0262E0;
   --p-color-text-caution: #5E4200;
+  --p-color-text-pending: #D97706;
   
   // Border Colors
   --p-color-border: #EBEDEF;
@@ -61,15 +66,19 @@
   --p-color-border-success: #29845A;
   --p-color-border-warning: #ffb800;
   --p-color-border-info: #0262E0;
+  --p-color-border-focus: #005bd3;
+  --p-color-border-pending: #D97706;
   
   // Icon Colors
   --p-color-icon: #5c5f62;
   --p-color-icon-hover: #1a1c1d;
+  --p-color-icon-secondary: #8c9196;
   --p-color-icon-disabled: #babfc4;
   --p-color-icon-critical: #d82c0d;
   --p-color-icon-success: #29845A;
   --p-color-icon-warning: #ffb800;
   --p-color-icon-info: #0262E0;
+  --p-color-icon-pending: #D97706;
   
   // Focus
   --p-color-focus-ring: #005bd3;
@@ -143,6 +152,12 @@
   --p-shadow-button-primary: 0px 1px 0px 0px rgba(26, 26, 26, 0.07), inset 0px 1px 0px 0px rgba(204, 204, 204, 0.5), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.17), inset -1px 0px 0px 0px rgba(0, 0, 0, 0.13), inset 1px 0px 0px 0px rgba(0, 0, 0, 0.13);
   --p-shadow-inset-100: inset 0 1px 1px rgba(0, 0, 0, 0.1);
   --p-shadow-popover: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
+  --p-shadow-toast: 0 4px 16px rgba(0, 0, 0, 0.16);
+  
+  // ==================== BORDER WIDTH ====================
+  
+  --p-border-width-025: 1px;
+  --p-border-width-050: 2px;
   
   // ==================== MOTION ====================
   
